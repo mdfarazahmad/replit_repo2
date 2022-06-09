@@ -341,6 +341,30 @@
 # move()
 # turn_left()
 
-number = 20
-age = bool(number)
-print(age)
+
+# Simple Calculator
+
+first = input("Enter first number: ")
+operator = input("Enter operator (+, -, *, /, %): ")
+second = input("Enter second number: ")
+
+first = int(first)
+second = int(second)
+
+if operator == "+":
+    print(first + second)
+
+elif operator == "-":
+    print(first - second)
+
+elif operator == "*":
+    print(first * second)
+
+elif operator == "/":
+    print(first / second)
+
+elif operator == "%":
+    print(first % second)
+
+else:
+    print("Invalid operation")
