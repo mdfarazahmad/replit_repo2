@@ -5,7 +5,6 @@
 # bmi_as_int = int(bmi)
 # print(bmi_as_int)
 
-
 # print(round(8 / 3, 2))
 # print(type(8 / 3))
 # print(4 / 2)
@@ -47,7 +46,6 @@
 # else:
 #   print("This is odd number")
 
-
 # "Your BMI is 18, you are underweight."
 # "Your BMI is 22, you have a normal weight."
 # "Your BMI is 28, you are slightly overweight."
@@ -56,7 +54,6 @@
 
 # height = float(input("enter your height in m: "))
 # weight = float(input("enter your weight in kg: "))
-
 
 # bmi = round(weight / height ** 2)
 # if bmi <= 18:
@@ -70,9 +67,7 @@
 # else:
 #   print(f"Your BMI is {bmi}, you are clinically obese. ")
 
-
 # year = int(input("Which year do you want to check? "))
-
 
 # if year % 4 == 0:
 #   if year % 100 == 0:
@@ -88,7 +83,7 @@
 # else:
 #   print("not leap")
 
-# 
+#
 
 # # LOVE CALCULATOR
 # print("Welcome to the Love Calculator!")
@@ -119,7 +114,6 @@
 #   print(f"Your score is {love_score}, you are alright together.")
 # else:
 #   print(f"Your score is {love_score}")
-
 
 # Treasure_Island
 
@@ -160,14 +154,13 @@
 #     elif z == "yellow":
 #       print("You found the treasure! You Win!")
 
-  
 #   else:
 #    print("You get attacked by an angry trout. Game Over.")
-    
+
 # else:
 #  print("You fell into a hole. Game Over.")
-  
-  #python list coding
+
+#python list coding
 
 # names_string = input("Give me everybody's names, separated by a comma.\n ")
 # names = names_string.split(", ")
@@ -192,7 +185,6 @@
 # print(f"{row1}\n{row2}\n{row3}")
 
 # # PLAY ROCK PAPER SCISSORS PROFESSIONALLY
-
 
 # rock = '''
 #     _______
@@ -221,7 +213,6 @@
 # ---.__(___)
 # '''
 
-
 # import random
 
 # game_images = [rock, paper, scissors]
@@ -245,7 +236,6 @@
 #     print("You Win")
 # elif computer_choice == users_choice:
 #     print("Draw")
-
 
 # Height Average calculation
 
@@ -275,7 +265,6 @@
 #     heighest_score = score
 # print(f"The highest score in the class is: {heighest_score}")
 
-
 # Sum of Even Numbers
 # total = 0
 # for number in range(2, 101, 2):
@@ -302,14 +291,13 @@
 # symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 # print("Welcome to the PyPassword Generator!")
-# nr_letters= int(input("How many letters would you like in your password?\n")) 
+# nr_letters= int(input("How many letters would you like in your password?\n"))
 # nr_symbols = int(input(f"How many symbols would you like?\n"))
 # nr_numbers = int(input(f"How many numbers would you like?\n"))
 # password_list = []
 # for letter in range(1, nr_letters +1):
 #      random_letter = random.choice(letters)
-#      password_list.append(random_letter) 
-
+#      password_list.append(random_letter)
 
 # for number in range(1, nr_numbers + 1):
 #      random_number = random.choice(numbers)
@@ -338,12 +326,11 @@
 # else:
 #   print("This is not palindrome")
 
-
 # def turn_right():
 #     turn_left()
 #     turn_left()
 #     turn_left()
-    
+
 # def jump():
 # move()
 # turn_left()
@@ -357,13 +344,3 @@
 number = 20
 age = bool(number)
 print(age)
-
-
-
-
-
-
-
-
-
-
