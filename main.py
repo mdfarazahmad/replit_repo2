@@ -341,30 +341,35 @@
 # move()
 # turn_left()
 
-
 # Simple Calculator
 
-first = input("Enter first number: ")
-operator = input("Enter operator (+, -, *, /, %): ")
-second = input("Enter second number: ")
+# first = input("Enter first number: ")
+# operator = input("Enter operator (+, -, *, /, %): ")
+# second = input("Enter second number: ")
 
-first = int(first)
-second = int(second)
+# first = int(first)
+# second = int(second)
 
-if operator == "+":
-    print(first + second)
+# if operator == "+":
+#     print(first + second)
 
-elif operator == "-":
-    print(first - second)
+# elif operator == "-":
+#     print(first - second)
 
-elif operator == "*":
-    print(first * second)
+# elif operator == "*":
+#     print(first * second)
 
-elif operator == "/":
-    print(first / second)
+# elif operator == "/":
+#     print(first / second)
 
-elif operator == "%":
-    print(first % second)
+# elif operator == "%":
+#     print(first % second)
 
-else:
-    print("Invalid operation")
+# else:
+
+# Write a Python program to display the current date and time.
+
+# import datetime
+# now = datetime.datetime.now()
+# print ("Current date and time : ")
+# print (now.strftime("%Y-%m-%d %H:%M:%S"))
