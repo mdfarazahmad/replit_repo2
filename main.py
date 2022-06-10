@@ -373,3 +373,11 @@
 # now = datetime.datetime.now()
 # print ("Current date and time : ")
 # print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+# Write a Python program which accepts the radius of a circle from the user and compute the area.
+
+# import math
+# pi = math.pi
+# r = int(input("Radius of Circle: "))
+# Area_of_circle = pi*r**2
+# print(Area_of_circle)
